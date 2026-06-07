@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111827;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 35px 20px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#playerCount {
+    color: #22c55e;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.search-section {
+    margin: 25px auto;
+    position: relative;
+    max-width: 420px;
+}
+
+input {
+    padding: 12px;
+    width: 260px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #22c55e;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+#suggestions {
+    background: #1f2937;
+    max-width: 260px;
+    margin: 5px auto 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #374151;
+}
+
+.suggestion-item:hover {
+    background: #374151;
+}
+
+.top-locks-section,
+.recent-section {
+    background: #1f2937;
+    max-width: 500px;
+    margin: 0 auto 25px;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.lock-item,
+.recent-item {
+    background: #111827;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.lock-item:hover,
+.recent-item:hover {
+    background: #374151;
+    transform: scale(1.02);
+}
+
+.results-section {
+    padding-bottom: 40px;
+}
+
+#playerCard {
+    background: #1f2937;
+    max-width: 430px;
+    margin: 20px auto;
+    padding: 22px;
+    border-radius: 14px;
+}
+
+.green {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.yellow {
+    color: #facc15;
+    font-weight: bold;
+}
+
+.red {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.player-img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.prop-box {
+    background: #111827;
+    border: 1px solid #374151;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.prop-box h4 {
+    margin-top: 0;
+    color: white;
+}
+
+.onnat-box {
+    background: #111827;
+    border: 1px solid #374151;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.onnat-status {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.onnat-blocks {
+    font-size: 22px;
+    letter-spacing: 2px;
+    word-break: break-word;
+}
+.info-box {
+    background: #111827;
+    border: 1px solid #374151;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.info-box h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.last-five {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.remove-lock-btn {
+    background: #ef4444;
+    color: white;
+    padding: 6px 10px;
+    margin-left: 10px;
+}
+
+.remove-lock-btn:hover {
+    background: #dc2626;
+}

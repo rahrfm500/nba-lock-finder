@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Lock Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🏀 NBA Lock Finder</h1>
+        <p>Analyze player props, trends, and recent performance.</p>
+        <p id="playerCount">25 Players Loaded</p>
+    </header>
+
+    <main>
+        <section class="top-locks-section">
+            <h2>🔥 Daily Picks</h2>
+            <div id="topLocks"></div>
+        </section>
+<section class="top-locks-section">
+    <h2>🚫 Banned Ninjas</h2>
+    <div id="bannedNinjas"></div>
+</section>
+        <section class="recent-section">
+            <h2>🕒 Recent Searches</h2>
+            <div id="recentSearches">
+                <p>No recent searches yet.</p>
+            </div>
+        </section>
+<section class="recent-section">
+    <h2>⭐ My Locks</h2>
+    <div id="myLocks">
+        <p>No saved locks yet.</p>
+    </div>
+</section>
+        <section class="search-section">
+            <input
+                type="text"
+                id="playerSearch"
+                placeholder="Enter player name..."
+                autocomplete="off"
+            >
+            <div id="suggestions"></div>
+            <button id="analyzeBtn">Analyze</button>
+        </section>
+
+        <section class="results-section">
+            <h2>Player Analysis</h2>
+
+            <div id="playerCard">
+                <h3>Search a Player</h3>
+                <p>Try: Brunson, Bron, Ant, Steph, Luka, Jokic, SGA, Wemby, KD, Giannis.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
