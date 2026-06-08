@@ -15,7 +15,7 @@ let recentSearches = [];
 
 async function loadPlayersFromJSON() {
     try {
-        const response = await fetch("players.json");
+        const response = await fetch("data/players.json");
         const playerArray = await response.json();
 
         playerArray.forEach(function (player) {
